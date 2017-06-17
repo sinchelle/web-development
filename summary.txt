@@ -1,3 +1,4 @@
+1.
 opacity 兼容
 .opacity{   
 filter:alpha(opacity=50); /* IE */  
@@ -5,3 +6,13 @@ filter:alpha(opacity=50); /* IE */
 -khtml-opacity:0.5; /* 老版Safari */  
 opacity: 0.5; /* 支持opacity的浏览器*/  
 }  
+
+2.
+before 和 after
+div{
+        position: relative;  /*相对定位*/   
+    }
+div:before{
+    content: "";  /*:before和:after必带技能*/
+    position: absolute;  /*日常绝对定位*/
+}
