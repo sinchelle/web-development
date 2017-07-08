@@ -1,0 +1,29 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+body,html{
+    width:100%;
+}
+textarea{resize: none}
+img{border:0;}
+li{list-style-type:none;}
+.hid{
+	overflow:hidden;
+}
+.p-r{
+	position:relative;
+}
+/*r-wrap节点外层至少有一层div*/
+.r-wrap{
+	width:100%;
+	height：auto;
+}
+.slide{
+	width:500%;/*写了5张图片*/
+	left:0;
+}
+.slide li{
+	float:left;
+	width:20%;
+}
+.slide li img{
+	width:100%;
+}
