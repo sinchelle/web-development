@@ -8,6 +8,10 @@ opacity: 0.5; /* 支持opacity的浏览器*/
 }  
 
 2.
+rgba(r,g,b,a)透明度
+属性值：rgb色值,透明度百分比
+
+3.
 before 和 after
 div{
         position: relative;  /*相对定位*/   
@@ -16,3 +20,12 @@ div:before{
     content: "";  /*:before和:after必带技能*/
     position: absolute;  /*日常绝对定位*/
 }
+
+4.
+content:"" 换行
+div{
+content:"这是一段字符串\A我要换行";
+white-space:pre-line;  
+}  
+/*这是一段字符串*/
+/*我要换行*/
