@@ -29,3 +29,24 @@ white-space:pre-line;
 }  
 /*这是一段字符串*/
 /*我要换行*/
+
+5.
+禁止文本选中
+{
+  -moz-user-select: none; /*火狐*/
+   -webkit-user-select: none;  /*webkit浏览器*/
+   -ms-user-select: none;   /*IE10*/
+   -khtml-user-select: none; /*早期浏览器*/
+   user-select: none;
+ }
+/*兼容IE*/
+if(document.all){
+    document.onselectstart= function(){return false;}; //for ie
+}else{
+    document.onmousedown= function(){return false;};
+    document.onmouseup= function(){return true;};
+}
+document.onselectstart = new Function('event.returnValue=false;');
+
+//劫持开始选择事件和（或）鼠标按下、抬起事件。
+   
