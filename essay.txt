@@ -49,4 +49,10 @@ if(document.all){
 document.onselectstart = new Function('event.returnValue=false;');
 
 //劫持开始选择事件和（或）鼠标按下、抬起事件。
-   
+
+6.
+禁用鼠标
+{
+pointer-events: none;  
+}
+
