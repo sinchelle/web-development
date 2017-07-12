@@ -75,3 +75,11 @@ input:focus:-ms-input-placeholder{
  禁止input在移动端获取焦点时放大网页
  <meta content="yes" name="apple-mobile-web-app-capable">
  <meta name="viewport" content="user-scalable=no">
+ 
+ 9.
+  关于 word-wrap: normal;
+    word-break: break-word;
+    white-space: pre;
+    overflow: auto;
+  的用法： http://www.cnblogs.com/jdsm/p/3522121.html
+    
