@@ -82,4 +82,12 @@ input:focus:-ms-input-placeholder{
     white-space: pre;
     overflow: auto;
   的用法： http://www.cnblogs.com/jdsm/p/3522121.html
-    
+ 
+ 10.
+ 多行文本溢出隐藏
+ {
+    height: 70px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
